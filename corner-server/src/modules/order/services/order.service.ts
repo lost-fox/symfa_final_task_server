@@ -21,8 +21,4 @@ export class OrderService {
   async createOrder(createNewOrder: CreateNewOrder) {
     return await this.orderModel.create(createNewOrder);
   }
-
-  //   async findActiveOrder() {
-  //    const today = new Date().toISOString();
-  //   }
 }
